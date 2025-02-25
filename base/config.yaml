@@ -1,0 +1,16 @@
+executionConfig:
+  device: emulator_Pixel6a_android #Win10_Chrome_122 #emulator_Pixel6a_android
+  platform: app
+  resetFlag: False
+  environment: UAT
+  parallelNumber: 1
+environmentConfig:
+  UAT:
+    version: ""
+    appPackage: hko.MyObservatory_v1_0
+    appActivity: hko.MyObservatory_v1_0.AgreementPage
+    apiToken: 67babc76b48070.72998357
+    loginAccount:
+      username:
+      password:
+

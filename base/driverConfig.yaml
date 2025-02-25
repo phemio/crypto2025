@@ -1,0 +1,11 @@
+emulator_Pixel6a_android:
+  DesiredCapabilities:
+    platformName: Android
+    deviceName: "Pixel 6a"
+Win10_Chrome_122:
+  DesiredCapabilities:
+    platformName: Windows
+    platformVersion: 10
+    browserName: ["Chrome"] #["Chrome", "Firefox"] # at least one browser as input
+    browserVersion: 112
+    resolution: 1024x768

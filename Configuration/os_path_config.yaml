@@ -1,0 +1,8 @@
+Windows:
+  log_path: "\\Logs"
+  report_path: "\\Reports\\allurereports"
+  screen_path: ""
+Mac:
+  log_path: ""
+  report_path: ""
+  screen_path: ""

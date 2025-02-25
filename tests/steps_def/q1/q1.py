@@ -1,0 +1,13 @@
+def pyramid_pattern(n):
+    for i in range(n):
+
+        for j in range(n - i - 1):
+            print(" ", end="")
+
+        for k in range(2 * i + 1):
+            print("*", end="")
+
+        print()
+
+stage = 5
+pyramid_pattern(stage)
